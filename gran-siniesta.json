@@ -19,7 +19,8 @@
         "Plata"
       ],
       "comida": [],
-      "imagen": ""
+      "imagen": "",
+      "tamaño": "18px"
     },
     {
       "x": 57.25288831835687,
@@ -36,7 +37,9 @@
         "Especias",
         "Lechuga",
         "Patatas"
-      ]
+      ],
+      "imagen": "",
+      "tamaño": "12px"
     },
     {
       "x": 28.498075577555255,
@@ -50,7 +53,9 @@
       "minerales": [],
       "comida": [
         "Avena"
-      ]
+      ],
+      "imagen": "",
+      "tamaño": "18px"
     },
     {
       "x": 29.845956354300384,
@@ -68,7 +73,9 @@
       "minerales": [
         "Oro"
       ],
-      "comida": []
+      "comida": [],
+      "imagen": "",
+      "tamaño": "18px"
     },
     {
       "x": 28.967116592281762,
@@ -85,7 +92,8 @@
       ],
       "monstruos": [],
       "minerales": [],
-      "comida": []
+      "comida": [],
+      "tamaño": "18px"
     },
     {
       "x": 54.49293966623877,
@@ -101,6 +109,53 @@
         "Madera",
         "Arsénico"
       ],
+      "comida": [],
+      "tamaño": "12px"
+    },
+    {
+      "x": 67.47802987401938,
+      "y": 20.4256634647018,
+      "nombre": "Alta Sanabria",
+      "descripcion": "La mayor ciudad del norte. Antigua capital de Lorentia y actual residencia del núcle familiar de los Kal'arch.\n\nDurante el verano es una zona calmada, pero durante el invierno sufren constantes ventiscas y grandes nevadas.",
+      "imagen": "",
+      "icono": "fab fa-fort-awesome",
+      "tamaño": "18px",
+      "color": "#a11011",
+      "vegetacion": [
+        "Acónito",
+        "Milenrama",
+        "Pino del Diablo",
+        "Drupa de Mirlo"
+      ],
+      "monstruos": [
+        "Draco",
+        "Arpía",
+        "Cocatriz"
+      ],
+      "minerales": [],
+      "comida": []
+    },
+    {
+      "x": 56.039210937750404,
+      "y": 22.277373292967315,
+      "nombre": "Fuerte Bruma",
+      "descripcion": "Un pequeño fuerte rodeado siempre de brumas y niebla\n\nEntre los valles más ocultos de estas montañas se encuentra una sociedad secreta élfica llamada Sel Delmah, Nuevo Hogar. En esta zona, asentados unas ruinas enanas, tiene lugar la vida social elfa, así como el comercio y otras actividades relacionadas, mientras que la vida cotidiana la realizan en el interior de la montaña. Estas cavidades internas están aún más escondidas que las ruinas enanas, y sirven de refugio a familias y niños.",
+      "imagen": "",
+      "icono": "fas fa-chess-rook",
+      "tamaño": "12px",
+      "color": "#a11011",
+      "vegetacion": [
+        "Espino de Hart",
+        "Bejin",
+        "Pino del Diablo"
+      ],
+      "monstruos": [
+        "Lisovik",
+        "Arpía",
+        "Espina Roja",
+        "Garuba"
+      ],
+      "minerales": [],
       "comida": []
     }
   ],
