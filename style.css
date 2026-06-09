@@ -110,6 +110,8 @@ body {
 #mapa {
   width: 100%;
   display: block;
+  user-select: none;
+  -webkit-user-drag: none;
 }
 
 /* MARCADORES */
