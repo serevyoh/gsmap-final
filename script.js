@@ -1,22 +1,23 @@
-window.onload = function() {
-
+window.onload = async function() {
+  await cargarDatos();
   const container = document.getElementById("mapa-container");
   const inner = document.getElementById("mapa-inner");
   const mapaImg = document.getElementById("mapa");
   const gridOverlay =
   document.getElementById("gridOverlay");
 
-  let lugares = [];
-  let territorios = {};
-  // ================= GUARDADO =================
+let lugares = [];
+let territorios = {};
 
-const datosGuardados =
-  localStorage.getItem("granSiniestaMapa");
+// ================= DATOS JSON =================
 
-if (datosGuardados) {
+async function cargarDatos(){
+
+  const respuesta =
+    await fetch("gran-siniesta.json");
 
   const datos =
-    JSON.parse(datosGuardados);
+    await respuesta.json();
 
   lugares =
     datos.lugares || [];
