@@ -1,0 +1,128 @@
+{
+  "lugares": [
+    {
+      "x": 53.01668806161746,
+      "y": 47.24668310437948,
+      "nombre": "Ciudad del Rey",
+      "descripcion": "Bla bla",
+      "icono": "fab fa-fort-awesome",
+      "color": "#6951c9",
+      "vegetacion": [],
+      "monstruos": [
+        "Draco",
+        "Las'kram",
+        "Hombre lobo"
+      ],
+      "minerales": [
+        "Madera",
+        "Acero",
+        "Plata"
+      ],
+      "comida": [],
+      "imagen": ""
+    },
+    {
+      "x": 57.25288831835687,
+      "y": 73.5470235998591,
+      "nombre": "cosita",
+      "descripcion": "asdasd",
+      "icono": "fas fa-chess-rook",
+      "color": "#1e7329",
+      "vegetacion": [],
+      "monstruos": [],
+      "minerales": [],
+      "comida": [
+        "Cebada",
+        "Especias",
+        "Lechuga",
+        "Patatas"
+      ]
+    },
+    {
+      "x": 28.498075577555255,
+      "y": 52.71515781568152,
+      "nombre": "Menesa",
+      "descripcion": "Capital Vaelekin",
+      "icono": "fab fa-fort-awesome",
+      "color": "#0054ad",
+      "vegetacion": [],
+      "monstruos": [],
+      "minerales": [],
+      "comida": [
+        "Avena"
+      ]
+    },
+    {
+      "x": 29.845956354300384,
+      "y": 86.23732926304254,
+      "nombre": "Sepúlveda",
+      "descripcion": "Capital Sarrakena. Cosas pasan.",
+      "icono": "fab fa-fort-awesome",
+      "color": "#c93457",
+      "vegetacion": [],
+      "monstruos": [
+        "Las'kram",
+        "Nakkros",
+        "Hombre lobo"
+      ],
+      "minerales": [
+        "Oro"
+      ],
+      "comida": []
+    },
+    {
+      "x": 28.967116592281762,
+      "y": 27.073002505770503,
+      "nombre": "Vanalis",
+      "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software including versions of Lorem Ipsum.\n\nWhy do we use it?\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+      "imagen": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbOpUUxBRrUeu9Un2ZmIT31HZp8FDCHgEscWdVitGVF6tDOw5BcUYRA2DVBQGPGLk_zB02ahMBMskK2vS428kDAivUihcpO9Un15ZBI8WiSjiyKj5-c_IWdq1IsphhnDWgh0NzZnbA0CJF/s1600/Bel%2527ashir+ciudad+elfa+edificios.jpg",
+      "icono": "fab fa-fort-awesome",
+      "color": "#008791",
+      "vegetacion": [
+        "Celidonia",
+        "Milenrama",
+        "Raíz de Mandrágora"
+      ],
+      "monstruos": [],
+      "minerales": [],
+      "comida": []
+    },
+    {
+      "x": 54.49293966623877,
+      "y": 57.76681930257133,
+      "nombre": "Reden",
+      "descripcion": "Ciudad sin Ley",
+      "imagen": "",
+      "icono": "fas fa-chess-rook",
+      "color": "#b545de",
+      "vegetacion": [],
+      "monstruos": [],
+      "minerales": [
+        "Madera",
+        "Arsénico"
+      ],
+      "comida": []
+    }
+  ],
+  "territorios": {
+    "52_48": "#1e7329",
+    "52_47": "#1e7329",
+    "52_46": "#1e7329",
+    "52_45": "#1e7329",
+    "53_45": "#1e7329",
+    "54_45": "#1e7329",
+    "25_34": "#0054ad",
+    "25_33": "#0054ad",
+    "26_33": "#0054ad",
+    "26_34": "#0054ad",
+    "48_29": "#6951c9",
+    "49_29": "#6951c9",
+    "48_30": "#6951c9",
+    "49_30": "#6951c9",
+    "43_58": "#731010",
+    "44_58": "#731010",
+    "44_57": "#731010",
+    "43_57": "#731010",
+    "50_36": "#b545de"
+  }
+}
