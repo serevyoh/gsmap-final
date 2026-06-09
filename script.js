@@ -76,6 +76,12 @@ const ES_ADMIN = false;
 
   };
 
+  Object.keys(LIB).forEach(categoria => {
+  LIB[categoria].sort((a, b) =>
+    a.localeCompare(b, "es")
+  );
+});
+
 const ICONOS = [
 
   {
