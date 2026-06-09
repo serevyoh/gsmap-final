@@ -536,11 +536,13 @@ botonExportar.onclick = () => {
   let scale = 1, posX = 0, posY = 0;
   let isDragging = false, startX, startY;
 
-  container.onmousedown = (e) => {
-    isDragging = true;
-    startX = e.clientX - posX;
-    startY = e.clientY - posY;
-  };
+    container.onmousedown = (e) => {
+      e.preventDefault();
+      isDragging = true;
+      startX = e.clientX - posX;
+      startY = e.clientY - posY;
+
+};
 
   container.onmousemove = (e) => {
     if (!isDragging) return;
