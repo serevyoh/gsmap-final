@@ -1,13 +1,15 @@
 window.onload = async function() {
+
+let lugares = [];
+let territorios = {};
+
   await cargarDatos();
+
   const container = document.getElementById("mapa-container");
   const inner = document.getElementById("mapa-inner");
   const mapaImg = document.getElementById("mapa");
   const gridOverlay =
   document.getElementById("gridOverlay");
-
-let lugares = [];
-let territorios = {};
 
 // ================= DATOS JSON =================
 
