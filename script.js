@@ -80,32 +80,38 @@ const ICONOS = [
 
   {
     nombre: "Capital",
-    clase: "fab fa-fort-awesome"
-  },
-
-  {
-    nombre: "Ciudad",
-    clase: "ra ra-spikeball"
+    clase: "fab fa-fort-awesome",
+    tamaño: "18px"
   },
 
   {
     nombre: "Región / Zona",
-    clase: "fas fa-chess-rook"
+    clase: "ra ra-spikeball",
+    tamaño: "14px"
+  },
+
+  {
+    nombre: "Ciudad",
+    clase: "fas fa-chess-rook",
+    tamaño: "12px"
   },
 
   {
     nombre: "Bosque",
-    clase: "fab fa-pagelines"
+    clase: "fab fa-pagelines",
+    tamaño: "12px"
+  },
+
+  {
+    nombre: "Montaña",
+    clase: "fas fa-mountain",
+    tamaño: "12px"
   },
 
   {
     nombre: "Bosque",
-    clase: "fab fa-pagelines"
-  },
-
-  {
-    nombre: "Bosque",
-    clase: "fab fa-pagelines"
+    clase: "fab fa-pagelines",
+    tamaño: "12px"
   }
 
 ];
@@ -637,7 +643,13 @@ function reconstruirMapa(){
     marcador.style.top = lugar.y + "%";
 
     marcador.innerHTML =
-      `<i class="${lugar.icono || "fas fa-map-marker-alt"}" style="color:${lugar.color || "#ffffff"}"></i>`;
+    `<i
+      class="${lugar.icono || "fas fa-map-marker-alt"}"
+      style="
+      color:${lugar.color || "#ffffff"};
+      font-size:${lugar.tamaño || "12px"};
+      "
+      ></i>`;
 
 marcador.onclick = (e) => {
 
@@ -842,6 +854,12 @@ document.querySelectorAll(".color-option")
       lugar.descripcion = val("f-desc");
       lugar.imagen = val("f-imagen");
       lugar.icono = iconoSeleccionado;
+      const iconoInfo =
+        ICONOS.find(
+          i => i.clase === iconoSeleccionado
+              );
+      lugar.tamaño =
+        iconoInfo?.tamaño || "12px";
       lugar.color = colorSeleccionado;
 
       lugar.vegetacion = getChecks("veg");
@@ -941,7 +959,13 @@ function crearCheckboxes(
 
   function actualizarMarcador(lugar) {
     lugar._el.innerHTML =
-      `<i class="${lugar.icono}" style="color:${lugar.color}"></i>`;
+    `<i
+    class="${lugar.icono}"
+    style="
+      color:${lugar.color};
+      font-size:${lugar.tamaño || "12px"};
+      "
+      ></i>`;
   }
   function aplicarFiltros(){
 
