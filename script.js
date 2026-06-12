@@ -1115,7 +1115,27 @@ if(imagen){
   };
 
 }
+// ================= LEYENDA =================
+const leyendaCabecera =
+  document.getElementById(
+    "leyendaCabecera"
+  );
+const leyendaContenido =
+  document.getElementById(
+    "leyendaContenido"
+  );
+leyendaCabecera.onclick = () => {
+  if(
+    leyendaContenido.style.display
+    === "none"
+  ){
+    leyendaContenido.style.display =
+      "block";
+  }else{
+    leyendaContenido.style.display =
+      "none";
+  }
+};
 
 }
-
 };
